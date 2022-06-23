@@ -789,6 +789,7 @@ const typeDefs = gql`
     name: String!
     created_by: String!
     owned_by: Int
+    user: User
     image_address: String!
     description: String
     price: Float!
@@ -886,6 +887,9 @@ const resolvers = {
     },
     editions_title({ name, created_by }) {
       return name + " by " + created_by;
+    },
+    user({ owned_by }) {
+      return users.find((user) => user.id === owned_by);
     },
   },
   Webtoon: {
