@@ -821,6 +821,7 @@ const typeDefs = gql`
     profile_picture: String
     name: String
     wallet_address: String
+    NFTs: NFT
   }
   type Query {
     allWebtoons: [Webtoon!]!
@@ -928,6 +929,11 @@ const resolvers = {
       return NFTs.filter((NFT) => NFT.created_by === name);
     },
   },
+  User: {
+    NFTs({id}) {
+      return NFTs.filter(NFT => NFT.owned_by === id)
+    }
+  }
 };
 
 const server = new ApolloServer({ typeDefs, resolvers });
