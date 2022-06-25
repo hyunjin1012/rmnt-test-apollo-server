@@ -801,6 +801,7 @@ const typeDefs = gql`
     total_editions: Int
     editions_title: String
     all_editions: [NFT]
+    webtoon: Webtoon
   }
   type Artist {
     id: Int!
@@ -893,9 +894,14 @@ const resolvers = {
     user({ owned_by }) {
       return users.find((user) => user.id === owned_by);
     },
-    all_editions({name, created_by}) {
-      return NFTs.filter((NFT) => NFT.created_by === created_by && NFT.name === name)
-    }
+    all_editions({ name, created_by }) {
+      return NFTs.filter(
+        (NFT) => NFT.created_by === created_by && NFT.name === name
+      );
+    },
+    webtoon({ webtoon_id }) {
+      return webtoons.find((webtoon) => webtoon.id === webtoon_id);
+    },
   },
   Webtoon: {
     artist({ artist_id }) {
