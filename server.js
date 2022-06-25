@@ -145,7 +145,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "ddkang",
     owned_by: 1,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -220,7 +220,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "ddkang",
     owned_by: 2,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -265,7 +265,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "ddkang",
     owned_by: 3,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -310,7 +310,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "Puroon",
     owned_by: 3,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -355,7 +355,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "Puroon",
     owned_by: 4,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -398,7 +398,7 @@ const NFTs = [
     id: 18,
     webtoon_id: 7,
     name: "Journey 2",
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     created_by: "ddkang",
     owned_by: 4,
     description:
@@ -430,7 +430,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "ddkang",
     owned_by: 5,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -460,7 +460,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "Puroon",
     owned_by: 5,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -490,7 +490,7 @@ const NFTs = [
     name: "Journey 2",
     created_by: "chunduck",
     owned_by: 2,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -520,7 +520,7 @@ const NFTs = [
     name: "Journey 11",
     created_by: "ddkang",
     owned_by: 2,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -579,7 +579,7 @@ const NFTs = [
     webtoon_id: 1,
     name: "Journey 11",
     owned_by: 1,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -594,7 +594,7 @@ const NFTs = [
     webtoon_id: 1,
     name: "Journey 11",
     owned_by: 3,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -609,7 +609,7 @@ const NFTs = [
     webtoon_id: 1,
     name: "Journey 11",
     owned_by: 4,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -624,7 +624,7 @@ const NFTs = [
     webtoon_id: 1,
     name: "Journey 11",
     owned_by: 5,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -639,7 +639,7 @@ const NFTs = [
     webtoon_id: 1,
     name: "Journey 11",
     owned_by: 6,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -654,7 +654,7 @@ const NFTs = [
     webtoon_id: 1,
     name: "Journey 11",
     owned_by: 1,
-    image_address: "/img_288_288.png",
+    image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
