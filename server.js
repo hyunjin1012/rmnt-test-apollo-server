@@ -1090,6 +1090,12 @@ const typeDefs = gql`
     editions_title: String
     all_editions: [NFT]
     webtoon: Webtoon
+    metadata: String
+    contract: String
+    width: Int
+    height: Int
+    reward: String
+    license: String
   }
   type Artist {
     id: Int!
