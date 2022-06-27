@@ -138,6 +138,14 @@ const NFTs = [
     drop_timestamp: "2022-07-26T09:15:00Z",
     sold: false,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 33,
@@ -153,6 +161,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 34,
@@ -168,6 +184,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 35,
@@ -183,6 +207,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 36,
@@ -198,6 +230,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 29,
@@ -213,6 +253,14 @@ const NFTs = [
     drop_timestamp: "2022-07-26T09:15:00Z",
     sold: false,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 30,
@@ -228,6 +276,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 31,
@@ -243,6 +299,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 26,
@@ -258,6 +322,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 27,
@@ -273,6 +345,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 28,
@@ -288,6 +368,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 23,
@@ -303,6 +391,14 @@ const NFTs = [
     drop_timestamp: "2022-07-01T16:00:00Z",
     sold: false,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 24,
@@ -318,6 +414,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 25,
@@ -333,6 +437,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 20,
@@ -348,6 +460,14 @@ const NFTs = [
     drop_timestamp: "2022-07-01T16:00:00Z",
     sold: false,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 21,
@@ -363,6 +483,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 22,
@@ -378,6 +506,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 17,
@@ -393,6 +529,14 @@ const NFTs = [
     drop_timestamp: "2022-07-01T16:00:00Z",
     sold: false,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 18,
@@ -408,6 +552,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 14,
@@ -423,6 +575,14 @@ const NFTs = [
     drop_timestamp: "2022-07-01T16:00:00Z",
     sold: false,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 15,
@@ -438,6 +598,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 11,
@@ -453,6 +621,14 @@ const NFTs = [
     drop_timestamp: "2022-07-26T09:15:00Z",
     sold: false,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 12,
@@ -468,6 +644,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 6,
@@ -483,6 +667,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 7,
@@ -498,6 +690,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 8,
@@ -513,6 +713,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 3,
@@ -528,6 +736,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 4,
@@ -543,6 +759,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 5,
@@ -558,6 +782,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 1,
@@ -573,6 +805,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 2,
@@ -588,6 +828,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 37,
@@ -603,6 +851,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 38,
@@ -618,6 +874,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 39,
@@ -633,6 +897,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 40,
@@ -648,6 +920,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
     id: 41,
@@ -663,6 +943,14 @@ const NFTs = [
     drop_timestamp: "2021-07-01T16:00:00Z",
     sold: true,
     opensea: "https://opensea.io/",
+    metadata: "#",
+    contract: "#",
+    width: 3840,
+    height: 2561,
+    license:
+      "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
+    reward:
+      "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
 ];
 
