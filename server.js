@@ -1066,6 +1066,7 @@ const typeDefs = gql`
     title: String!
     volume: Int!
     pages: [String!]!
+    cover_image: String
     description: String
     NFTs: [NFT]
     timeRemaining: Float
@@ -1198,6 +1199,9 @@ const resolvers = {
     },
   },
   Webtoon: {
+    cover_image({pages}) {
+      return pages[0]
+    },
     artist({ artist_id }) {
       return artists.find((artist) => artist.id === artist_id);
     },
