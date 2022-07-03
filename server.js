@@ -1071,6 +1071,7 @@ const typeDefs = gql`
     NFTs: [NFT]
     timeRemaining: Float
     collectors: [String]
+    sold: Boolean
   }
   type NFT {
     id: String!
