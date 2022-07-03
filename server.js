@@ -2,8 +2,8 @@ import { ApolloServer, gql } from "apollo-server";
 
 const webtoons = [
   {
-    id: 1,
-    artist_id: 1,
+    id: "1",
+    artist_id: "1",
     title: "First",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -11,16 +11,16 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 2,
-    artist_id: 1,
+    id: "2",
+    artist_id: "1",
     title: "Second",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
     description: "Description of TANGO Description of TANGO",
   },
   {
-    id: 3,
-    artist_id: 3,
+    id: "3",
+    artist_id: "3",
     title: "Third",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -28,8 +28,8 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 4,
-    artist_id: 1,
+    id: "4",
+    artist_id: "1",
     title: "Fourth",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -37,8 +37,8 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 5,
-    artist_id: 2,
+    id: "5",
+    artist_id: "2",
     title: "Daddy's Twenty-Forty-Two",
     volume: 1,
     pages: [
@@ -51,8 +51,8 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 6,
-    artist_id: 1,
+    id: "6",
+    artist_id: "1",
     title: "Sixth",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -60,8 +60,8 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 7,
-    artist_id: 1,
+    id: "7",
+    artist_id: "1",
     title: "Tango",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -69,8 +69,8 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 8,
-    artist_id: 2,
+    id: "8",
+    artist_id: "2",
     title: "Daddy's Twenty-Forty-Five",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -78,16 +78,16 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 9,
-    artist_id: 2,
+    id: "9",
+    artist_id: "2",
     title: "Daddy's Twenty-Forty-Five",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
     desc: "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 10,
-    artist_id: 1,
+    id: "10",
+    artist_id: "1",
     title: "Tenth",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -95,8 +95,8 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 11,
-    artist_id: 1,
+    id: "11",
+    artist_id: "1",
     title: "Eleventh",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -104,8 +104,8 @@ const webtoons = [
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: 12,
-    artist_id: 1,
+    id: "12",
+    artist_id: "1",
     title: "Twelfth",
     volume: 1,
     pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -114,8 +114,8 @@ const webtoons = [
 ];
 
 const top = {
-  id: 5,
-  artist_id: 2,
+  id: "5",
+  artist_id: "2",
   title: "Daddy's Twenty-Forty-Two",
   volume: 1,
   pages: ["/img_420_420.png", "/img_288_288.png"],
@@ -125,11 +125,11 @@ const top = {
 
 const NFTs = [
   {
-    id: 32,
-    webtoon_id: 12,
+    id: "32",
+    webtoon_id: "12",
     name: "Journey 1",
     created_by: "ddkang",
-    owned_by: 1,
+    owned_by: "1",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -148,11 +148,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 33,
-    webtoon_id: 12,
+    id: "33",
+    webtoon_id: "12",
     name: "Journey 2",
     created_by: "ddkang",
-    owned_by: 1,
+    owned_by: "1",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -171,11 +171,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 34,
-    webtoon_id: 12,
+    id: "34",
+    webtoon_id: "12",
     name: "Journey 3",
     created_by: "ddkang",
-    owned_by: 1,
+    owned_by: "1",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -194,11 +194,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 35,
-    webtoon_id: 12,
+    id: "35",
+    webtoon_id: "12",
     name: "Journey 4",
     created_by: "ddkang",
-    owned_by: 1,
+    owned_by: "1",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -217,11 +217,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 36,
-    webtoon_id: 12,
+    id: "36",
+    webtoon_id: "12",
     name: "Journey 5",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -240,11 +240,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 29,
-    webtoon_id: 11,
+    id: "29",
+    webtoon_id: "11",
     name: "Journey 1",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -263,11 +263,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 30,
-    webtoon_id: 11,
+    id: "30",
+    webtoon_id: "11",
     name: "Journey 2",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -286,11 +286,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 31,
-    webtoon_id: 11,
+    id: "31",
+    webtoon_id: "11",
     name: "Journey 3",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -309,11 +309,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 26,
-    webtoon_id: 10,
+    id: "26",
+    webtoon_id: "10",
     name: "Journey 1",
     created_by: "ddkang",
-    owned_by: 3,
+    owned_by: "3",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -332,11 +332,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 27,
-    webtoon_id: 10,
+    id: "27",
+    webtoon_id: "10",
     name: "Journey 2",
     created_by: "ddkang",
-    owned_by: 3,
+    owned_by: "3",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -355,11 +355,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 28,
-    webtoon_id: 10,
+    id: "28",
+    webtoon_id: "10",
     name: "Journey 3",
     created_by: "ddkang",
-    owned_by: 3,
+    owned_by: "3",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -378,11 +378,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 23,
-    webtoon_id: 9,
+    id: "23",
+    webtoon_id: "9",
     name: "Journey 1",
     created_by: "Puroon",
-    owned_by: 3,
+    owned_by: "3",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -401,11 +401,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 24,
-    webtoon_id: 9,
+    id: "24",
+    webtoon_id: "9",
     name: "Journey 2",
     created_by: "Puroon",
-    owned_by: 3,
+    owned_by: "3",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -424,11 +424,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 25,
-    webtoon_id: 9,
+    id: "25",
+    webtoon_id: "9",
     name: "Daddy's Twenty-Forty-Five",
     created_by: "Puroon",
-    owned_by: 4,
+    owned_by: "4",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -447,11 +447,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 20,
-    webtoon_id: 8,
+    id: "20",
+    webtoon_id: "8",
     name: "Journey 1",
     created_by: "Puroon",
-    owned_by: 4,
+    owned_by: "4",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -470,11 +470,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 21,
-    webtoon_id: 8,
+    id: "21",
+    webtoon_id: "8",
     name: "Journey 2",
     created_by: "Puroon",
-    owned_by: 4,
+    owned_by: "4",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -493,11 +493,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 22,
-    webtoon_id: 8,
+    id: "22",
+    webtoon_id: "8",
     name: "Journey 3",
     created_by: "Puroon",
-    owned_by: 4,
+    owned_by: "4",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -516,11 +516,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 17,
-    webtoon_id: 7,
+    id: "17",
+    webtoon_id: "7",
     name: "Journey 1",
     created_by: "ddkang",
-    owned_by: 4,
+    owned_by: "4",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -539,12 +539,12 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 18,
-    webtoon_id: 7,
+    id: "18",
+    webtoon_id: "7",
     name: "Journey 2",
     image_address: "/img_420_420.png",
     created_by: "ddkang",
-    owned_by: 4,
+    owned_by: "4",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
@@ -562,11 +562,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 14,
-    webtoon_id: 6,
+    id: "14",
+    webtoon_id: "6",
     name: "Journey 1",
     created_by: "ddkang",
-    owned_by: 5,
+    owned_by: "5",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -585,11 +585,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 15,
-    webtoon_id: 6,
+    id: "15",
+    webtoon_id: "6",
     name: "Journey 2",
     created_by: "ddkang",
-    owned_by: 5,
+    owned_by: "5",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -608,11 +608,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 11,
-    webtoon_id: 5,
+    id: "11",
+    webtoon_id: "5",
     name: "Journey 1",
     created_by: "Puroon",
-    owned_by: 5,
+    owned_by: "5",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -631,8 +631,8 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 12,
-    webtoon_id: 5,
+    id: "12",
+    webtoon_id: "5",
     name: "Journey 2",
     created_by: "Puroon",
     owned_by: 5,
@@ -654,11 +654,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 6,
-    webtoon_id: 3,
+    id: "6",
+    webtoon_id: "3",
     name: "Journey 1",
     created_by: "chunduck",
-    owned_by: 5,
+    owned_by: "5",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -677,11 +677,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 7,
-    webtoon_id: 3,
+    id: "7",
+    webtoon_id: "3",
     name: "Journey 2",
     created_by: "chunduck",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -700,11 +700,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 8,
-    webtoon_id: 3,
+    id: "8",
+    webtoon_id: "3",
     name: "Journey 3",
     created_by: "chunduck",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -723,11 +723,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 3,
-    webtoon_id: 2,
+    id: "3",
+    webtoon_id: "2",
     name: "Journey 11",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -746,11 +746,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 4,
-    webtoon_id: 2,
+    id: "4",
+    webtoon_id: "2",
     name: "Journey 12",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -769,11 +769,11 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 5,
-    webtoon_id: 2,
+    id: "5",
+    webtoon_id: "2",
     name: "Journey 13",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     image_address: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -792,10 +792,10 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 1,
-    webtoon_id: 1,
+    id: "1",
+    webtoon_id: "1",
     created_by: "ddkang",
-    owned_by: 2,
+    owned_by: "2",
     name: "Journey 12",
     image_address: "/img_288_288.png",
     description:
@@ -815,10 +815,10 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 2,
-    webtoon_id: 1,
+    id: "2",
+    webtoon_id: "1",
     name: "Journey 11",
-    owned_by: 1,
+    owned_by: "1",
     image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
@@ -838,10 +838,10 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 37,
-    webtoon_id: 1,
+    id: "37",
+    webtoon_id: "1",
     name: "Journey 11",
-    owned_by: 3,
+    owned_by: "3",
     image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
@@ -861,10 +861,10 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 38,
-    webtoon_id: 1,
+    id: "38",
+    webtoon_id: "1",
     name: "Journey 11",
-    owned_by: 4,
+    owned_by: "4",
     image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
@@ -884,10 +884,10 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 39,
-    webtoon_id: 1,
+    id: "39",
+    webtoon_id: "1",
     name: "Journey 11",
-    owned_by: 5,
+    owned_by: "5",
     image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
@@ -907,10 +907,10 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 40,
-    webtoon_id: 1,
+    id: "40",
+    webtoon_id: "1",
     name: "Journey 11",
-    owned_by: 6,
+    owned_by: "6",
     image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
@@ -930,10 +930,10 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: 41,
-    webtoon_id: 1,
+    id: "41",
+    webtoon_id: "1",
     name: "Journey 11",
-    owned_by: 1,
+    owned_by: "1",
     image_address: "/img_420_420.png",
     created_by: "ddkang",
     description:
@@ -956,7 +956,7 @@ const NFTs = [
 
 const artists = [
   {
-    id: 1,
+    id: "1",
     name: "ddkang",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
@@ -970,7 +970,7 @@ const artists = [
     collection: [],
   },
   {
-    id: 2,
+    id: "2",
     name: "Puroon",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
@@ -984,7 +984,7 @@ const artists = [
     collection: [],
   },
   {
-    id: 3,
+    id: "3",
     name: "chunduck",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
@@ -998,7 +998,7 @@ const artists = [
     collection: [],
   },
   {
-    id: 4,
+    id: "4",
     name: "abc",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
@@ -1018,50 +1018,50 @@ const users = [
     profile_picture: "",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: 1,
+    id: "1",
   },
   {
     profile_picture: "",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: 2,
+    id: "2",
   },
   {
     profile_picture: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: 3,
+    id: "3",
   },
   {
     profile_picture: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: 4,
+    id: "4",
   },
   {
     profile_picture: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: 5,
+    id: "5",
   },
   {
     profile_picture: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: 6,
+    id: "6",
   },
   {
     profile_picture: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: 7,
+    id: "7",
   },
 ];
 
 const typeDefs = gql`
   type Webtoon {
-    id: Int!
-    artist_id: Int!
+    id: String!
+    artist_id: String!
     artist: Artist
     title: String!
     volume: Int!
@@ -1070,14 +1070,14 @@ const typeDefs = gql`
     description: String
     NFTs: [NFT]
     timeRemaining: Float
-    collectors: [Int]
+    collectors: [String]
   }
   type NFT {
-    id: Int!
-    webtoon_id: Int
+    id: String!
+    webtoon_id: String
     name: String!
     created_by: String!
-    owned_by: Int
+    owned_by: String
     user: User
     image_address: String!
     description: String
@@ -1099,7 +1099,7 @@ const typeDefs = gql`
     license: String
   }
   type Artist {
-    id: Int!
+    id: String!
     name: String!
     description: String
     profile_picture: String
@@ -1109,12 +1109,12 @@ const typeDefs = gql`
     twitter: String
     wallet_address: String
     opensea: String
-    collection: [Int]
+    collection: [String]
     webtoons: [Webtoon]
     NFTs: [NFT]
   }
   type User {
-    id: Int!
+    id: String!
     profile_picture: String
     name: String
     wallet_address: String
@@ -1122,18 +1122,18 @@ const typeDefs = gql`
   }
   type Query {
     allWebtoons: [Webtoon!]!
-    webtoon(id: Int!): Webtoon
+    webtoon(id: String!): Webtoon
     webtoonTop: Webtoon!
     allNFTs: [NFT]
-    NFT(id: Int!): NFT
+    NFT(id: String!): NFT
     allArtists: [Artist]
     artist(name: String!): Artist
     allUsers: [User]
-    user(id: Int!): User
+    user(id: String!): User
   }
   type Mutation {
-    postProfilePicture(picture: String!, userId: Int!): String
-    postBackgroundPicture(picture: String!, userId: Int!): String
+    postProfilePicture(picture: String!, userId: String!): String
+    postBackgroundPicture(picture: String!, userId: String!): String
     deleteProfilePicture(picture: String!): Boolean
     deleteBackgroundPicture(picture: String!): Boolean
   }
@@ -1199,8 +1199,8 @@ const resolvers = {
     },
   },
   Webtoon: {
-    cover_image({pages}) {
-      return pages[0]
+    cover_image({ pages }) {
+      return pages[0];
     },
     artist({ artist_id }) {
       return artists.find((artist) => artist.id === artist_id);
@@ -1222,6 +1222,15 @@ const resolvers = {
           ).getTime() - new Date().getTime()
         );
       } else return null;
+    },
+    sold({ id }) {
+      if (
+        NFTs.filter((NFT) => NFT.webtoon_id === id).filter(
+          (NFT) => NFT.sold === false
+        ).length > 0
+      ) {
+        return false;
+      } else return true;
     },
     collectors({ id }) {
       return NFTs.filter((NFT) => NFT.webtoon_id === id).map(
