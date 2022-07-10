@@ -635,7 +635,7 @@ const NFTs = [
     webtoon_id: "5",
     name: "Journey 2",
     created_by: "Puroon",
-    owned_by: 5,
+    owned_by: "5",
     image_address: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
@@ -1070,7 +1070,7 @@ const typeDefs = gql`
     description: String
     NFTs: [NFT]
     timeRemaining: Float
-    collectors: [String]
+    # collectors: [String]
     sold: Boolean
   }
   type NFT {
@@ -1088,9 +1088,9 @@ const typeDefs = gql`
     sold: Boolean!
     opensea: String
     timeRemaining: Float
-    total_editions: Int
-    editions_title: String
-    all_editions: [NFT]
+    # total_editions: Int
+    # editions_title: String
+    # all_editions: [NFT]
     webtoon: Webtoon
     metadata: String
     contract: String
@@ -1179,22 +1179,22 @@ const resolvers = {
         return null;
       } else return new Date(drop_timestamp).getTime() - new Date().getTime();
     },
-    total_editions({ name, created_by }) {
-      return NFTs.filter(
-        (NFT) => NFT.created_by === created_by && NFT.name === name
-      ).length;
-    },
-    editions_title({ name, created_by }) {
-      return name + " by " + created_by;
-    },
+    // total_editions({ name, created_by }) {
+    //   return NFTs.filter(
+    //     (NFT) => NFT.created_by === created_by && NFT.name === name
+    //   ).length;
+    // },
+    // editions_title({ name, created_by }) {
+    //   return name + " by " + created_by;
+    // },
     user({ owned_by }) {
       return users.find((user) => user.id === owned_by);
     },
-    all_editions({ name, created_by }) {
-      return NFTs.filter(
-        (NFT) => NFT.created_by === created_by && NFT.name === name
-      );
-    },
+    // all_editions({ name, created_by }) {
+    //   return NFTs.filter(
+    //     (NFT) => NFT.created_by === created_by && NFT.name === name
+    //   );
+    // },
     webtoon({ webtoon_id }) {
       return webtoons.find((webtoon) => webtoon.id === webtoon_id);
     },
@@ -1233,11 +1233,11 @@ const resolvers = {
         return false;
       } else return true;
     },
-    collectors({ id }) {
-      return NFTs.filter((NFT) => NFT.webtoon_id === id).map(
-        (NFT) => NFT.owned_by
-      );
-    },
+    // collectors({ id }) {
+    //   return NFTs.filter((NFT) => NFT.webtoon_id === id).map(
+    //     (NFT) => NFT.owned_by
+    //   );
+    // },
   },
   Artist: {
     webtoons({ id }) {
