@@ -395,13 +395,16 @@ const resolvers = {
     timeRemaining({ webtoon_id }) {
       if (
         NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
-          (NFT) => NFT.drop_timestamp.getTime() - new Date().getTime() > 0
+          (NFT) =>
+            new Date(NFT.drop_timestamp).getTime() - new Date().getTime() > 0
         ).length > 0
       ) {
         return (
           new Date(
             NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
-              (NFT) => NFT.drop_timestamp.getTime() - new Date().getTime() > 0
+              (NFT) =>
+                new Date(NFT.drop_timestamp).getTime() - new Date().getTime() >
+                0
             )[0].drop_timestamp
           ).getTime() - new Date().getTime()
         );
