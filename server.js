@@ -87,7 +87,7 @@ const NFTs = [
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
     edition: 1,
-    drop_timestamp: "2021-09-01T16:00:00Z",
+    drop_timestamp: "2022-09-01T16:00:00Z",
     sold_timestamp: null,
     opensea: "https://opensea.io/",
     metadata: "#",
@@ -395,19 +395,13 @@ const resolvers = {
     timeRemaining({ webtoon_id }) {
       if (
         NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
-          (NFT) =>
-            (NFT.sold_timestamp === null) |
-            (NFT.sold_timestamp === undefined) |
-            (NFT.sold_timestamp === "")
+          (NFT) => NFT.drop_timestamp.getTime() - new Date().getTime() > 0
         ).length > 0
       ) {
         return (
           new Date(
             NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
-              (NFT) =>
-                (NFT.sold_timestamp === null) |
-                (NFT.sold_timestamp === undefined) |
-                (NFT.sold_timestamp === "")
+              (NFT) => NFT.drop_timestamp.getTime() - new Date().getTime() > 0
             )[0].drop_timestamp
           ).getTime() - new Date().getTime()
         );
