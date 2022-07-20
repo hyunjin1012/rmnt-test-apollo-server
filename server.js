@@ -125,8 +125,8 @@ const NFTs = [
 
   {
     nft_id: "3",
-    webtoon_id: "1",
-    created_by: "ddkang",
+    webtoon_id: "3",
+    created_by: "chunduck",
     owned_by: "2",
     name: "Journey 3",
     image: "/img_288_288.png",
