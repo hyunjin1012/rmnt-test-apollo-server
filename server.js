@@ -102,7 +102,7 @@ const NFTs = [
   {
     nft_id: "2",
     webtoon_id: "1",
-    name: "Journey 12",
+    name: "Journey 2",
     created_by: "ddkang",
     owned_by: "2",
     image: "/img_288_288.png",
@@ -150,13 +150,13 @@ const NFTs = [
     nft_id: "4",
     webtoon_id: "1",
     name: "Journey 4",
-    owned_by: "1",
+    owned_by: "3",
     image: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
-    edition: 2,
+    edition: 1,
     drop_timestamp: "2021-05-01T16:00:00Z",
     sold_timestamp: "2021-06-01T16:00:00Z",
     opensea: "https://opensea.io/",
@@ -409,18 +409,6 @@ const resolvers = {
           ).getTime() - new Date().getTime()
         );
       } else return null;
-    },
-    sold({ webtoon_id }) {
-      if (
-        NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
-          (NFT) =>
-            (NFT.sold_timestamp === null) |
-            (NFT.sold_timestamp === undefined) |
-            (NFT.sold_timestamp === "")
-        ).length > 0
-      ) {
-        return false;
-      } else return true;
     },
   },
   Artist: {
