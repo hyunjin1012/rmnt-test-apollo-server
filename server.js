@@ -188,7 +188,7 @@ const artists = [
   },
   {
     artist_id: "2",
-    name: "Puroon",
+    name: "Haeroon",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
     profile_image: "/img_420_420.png",
