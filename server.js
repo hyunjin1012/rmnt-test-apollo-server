@@ -232,25 +232,25 @@ const artists = [
 
 const users = [
   {
-    image: "",
+    profile_image: "",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
     user_id: "1",
   },
   {
-    image: "",
+    profile_image: "",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
     user_id: "2",
   },
   {
-    image: "/img_420_420.png",
+    profile_image: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
     user_id: "3",
   },
   {
-    image: "/img_420_420.png",
+    profile_image: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
     user_id: "4",
@@ -317,7 +317,7 @@ const typeDefs = gql`
   }
   type User {
     user_id: String!
-    image: String
+    profile_image: String
     name: String
     wallet_address: String
     NFTs: [NFT]
