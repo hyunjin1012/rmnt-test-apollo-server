@@ -66,11 +66,11 @@ const webtoons = [
 ];
 
 const top = {
-  id: "4",
+  webtoon_id: "4",
   artist_id: "1",
   title: "Fourth",
   volume: 1,
-  pages: ["/img_420_420.png", "/img_288_288.png"],
+  cover_image: "/img_420_420.png",
   description:
     "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO. ",
 };
