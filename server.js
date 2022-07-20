@@ -403,7 +403,7 @@ const resolvers = {
       ) {
         return (
           new Date(
-            NFTs.filter((NFT) => NFT.webtoon_id === id).filter(
+            NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
               (NFT) =>
                 (NFT.sold_timestamp === null) |
                 (NFT.sold_timestamp === undefined) |
