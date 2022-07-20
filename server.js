@@ -1,38 +1,65 @@
 import { ApolloServer, gql } from "apollo-server";
 
+const webtoon_pages = [
+  {
+    webtoon_page_id: "1",
+    webtoon_id: "1",
+    page_image: "/img_420_420.png",
+    page_number: 1,
+  },
+  {
+    webtoon_page_id: "2",
+    webtoon_id: "1",
+    page_image: "/img_420_420.png",
+    page_number: 2,
+  },
+  {
+    webtoon_page_id: "3",
+    webtoon_id: "2",
+    page_image: "/img_420_420.png",
+    page_number: 1,
+  },
+  {
+    webtoon_page_id: "4",
+    webtoon_id: "2",
+    page_image: "/img_420_420.png",
+    page_number: 2,
+  },
+];
+
 const webtoons = [
   {
-    id: "1",
+    webtoon_id: "1",
     artist_id: "1",
     title: "First",
     volume: 1,
-    pages: ["/img_420_420.png", "/img_288_288.png"],
+    cover_image: "/img_420_420.png",
     description:
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: "2",
-    artist_id: "1",
+    webtoon_id: "2",
+    artist_id: "2",
     title: "Second",
     volume: 1,
-    pages: ["/img_420_420.png", "/img_288_288.png"],
+    cover_image: "/img_420_420.png",
     description: "Description of TANGO Description of TANGO",
   },
   {
-    id: "3",
+    webtoon_id: "3",
     artist_id: "3",
     title: "Third",
     volume: 1,
-    pages: ["/img_420_420.png", "/img_288_288.png"],
+    cover_image: "/img_420_420.png",
     description:
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
   {
-    id: "4",
+    webtoon_id: "4",
     artist_id: "1",
     title: "Fourth",
     volume: 1,
-    pages: ["/img_420_420.png", "/img_288_288.png"],
+    cover_image: "/img_420_420.png",
     description:
       "Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO Description of TANGO. Description of TANGO Description of TANGO Description of TANGO Description Description of TANGO Description of TANGO.",
   },
@@ -49,20 +76,19 @@ const top = {
 };
 
 const NFTs = [
- 
   {
-    id: "3",
-    webtoon_id: "2",
-    name: "Journey 11",
+    nft_id: "1",
+    webtoon_id: "1",
+    name: "Journey 1",
     created_by: "ddkang",
     owned_by: "2",
-    image_address: "/img_420_420.png",
+    image: "/img_420_420.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
     edition: 1,
-    drop_timestamp: "2021-07-01T16:00:00Z",
-    sold: true,
+    drop_timestamp: "2021-09-01T16:00:00Z",
+    sold_timestamp: null,
     opensea: "https://opensea.io/",
     metadata: "#",
     contract: "#",
@@ -74,18 +100,18 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: "4",
-    webtoon_id: "2",
+    nft_id: "2",
+    webtoon_id: "1",
     name: "Journey 12",
     created_by: "ddkang",
     owned_by: "2",
-    image_address: "/img_288_288.png",
+    image: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
     edition: 1,
     drop_timestamp: "2021-07-01T16:00:00Z",
-    sold: true,
+    sold_timestamp: "2021-07-15T16:00:00Z",
     opensea: "https://opensea.io/",
     metadata: "#",
     contract: "#",
@@ -98,18 +124,18 @@ const NFTs = [
   },
 
   {
-    id: "1",
+    nft_id: "3",
     webtoon_id: "1",
     created_by: "ddkang",
     owned_by: "2",
-    name: "Journey 12",
-    image_address: "/img_288_288.png",
+    name: "Journey 3",
+    image: "/img_288_288.png",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
-    edition: 2,
+    edition: 1,
     drop_timestamp: "2021-07-01T16:00:00Z",
-    sold: true,
+    sold_timestamp: null,
     opensea: "https://opensea.io/",
     metadata: "#",
     contract: "#",
@@ -121,18 +147,18 @@ const NFTs = [
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
   },
   {
-    id: "2",
+    nft_id: "4",
     webtoon_id: "1",
-    name: "Journey 11",
+    name: "Journey 4",
     owned_by: "1",
-    image_address: "/img_420_420.png",
+    image: "/img_420_420.png",
     created_by: "ddkang",
     description:
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
     edition: 2,
-    drop_timestamp: "2021-07-01T16:00:00Z",
-    sold: true,
+    drop_timestamp: "2021-05-01T16:00:00Z",
+    sold_timestamp: "2021-06-01T16:00:00Z",
     opensea: "https://opensea.io/",
     metadata: "#",
     contract: "#",
@@ -142,17 +168,17 @@ const NFTs = [
       "Can be used to display privately, or in commercial and non-commercial settings, or in groups with an unlimited number of participants. The license includes unlimited use and display in virtual or physical galleries, documentaries, and essays by the NFT holder. Provides no rights to create commercial merchandise, commercial distribution, or derivative works.",
     reward:
       "Egg is hidden in a randomly selected timestamp. The winner is revealed only when the song sells out. The winner's NFT is then upgraded to a unique 1/1 chosen by the artist.",
-  }
+  },
 ];
 
 const artists = [
   {
-    id: "1",
+    artist_id: "1",
     name: "ddkang",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
-    profile_picture: "/img_420_420.png",
-    background_picture: "/Frame_4592_1.png",
+    profile_image: "/img_420_420.png",
+    background_image: "/Frame_4592_1.png",
     email: "d_d_kang@gmail.com",
     instagram: "d_d_kang",
     twitter: "d_d_kang",
@@ -161,12 +187,12 @@ const artists = [
     collection: [],
   },
   {
-    id: "2",
+    artist_id: "2",
     name: "Puroon",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
-    profile_picture: "/img_420_420.png",
-    background_picture: "/Frame_4592_1.png",
+    profile_image: "/img_420_420.png",
+    background_image: "/Frame_4592_1.png",
     email: "d_d_kang@gmail.com",
     instagram: "d_d_kang",
     twitter: "d_d_kang",
@@ -175,12 +201,12 @@ const artists = [
     collection: [],
   },
   {
-    id: "3",
+    artist_id: "3",
     name: "chunduck",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
-    profile_picture: "/img_420_420.png",
-    background_picture: "/Frame_4592_1.png",
+    profile_image: "/img_420_420.png",
+    background_image: "/Frame_4592_1.png",
     email: "d_d_kang@gmail.com",
     instagram: "d_d_kang",
     twitter: "d_d_kang",
@@ -189,12 +215,12 @@ const artists = [
     collection: [],
   },
   {
-    id: "4",
+    artist_id: "4",
     name: "abc",
     description:
       "ddkangddkangddkang ddkangddkangddkangddkang. ddkangddkang ddkangddkang ddkangddkangddkang",
-    profile_picture: "/img_420_420.png",
-    background_picture: "/Frame_4592_1.png",
+    profile_image: "/img_420_420.png",
+    background_image: "/Frame_4592_1.png",
     email: "d_d_kang@gmail.com",
     instagram: "d_d_kang",
     twitter: "d_d_kang",
@@ -206,34 +232,34 @@ const artists = [
 
 const users = [
   {
-    profile_picture: "",
+    image: "",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: "1",
+    user_id: "1",
   },
   {
-    profile_picture: "",
+    image: "",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: "2",
+    user_id: "2",
   },
   {
-    profile_picture: "/img_420_420.png",
+    image: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: "3",
+    user_id: "3",
   },
   {
-    profile_picture: "/img_420_420.png",
+    image: "/img_420_420.png",
     wallet_address: "0xd05...cDb80",
     name: "rarement",
-    id: "4",
+    user_id: "4",
   },
 ];
 
 const typeDefs = gql`
   type Webtoon {
-    id: String!
+    webtoon_id: String!
     artist_id: String!
     artist: Artist
     title: String!
@@ -246,18 +272,18 @@ const typeDefs = gql`
     sold: Boolean
   }
   type NFT {
-    id: String!
+    nft_id: String!
     webtoon_id: String
     name: String!
     created_by: String!
     owned_by: String
     user: User
-    image_address: String!
+    image: String!
     description: String
     price: Float!
     edition: Int
     drop_timestamp: String!
-    sold: Boolean!
+    sold_timestamp: String
     opensea: String
     timeRemaining: Float
     webtoon: Webtoon
@@ -269,11 +295,11 @@ const typeDefs = gql`
     license: String
   }
   type Artist {
-    id: String!
+    artist_id: String!
     name: String!
     description: String
-    profile_picture: String
-    background_picture: String
+    profile_image: String
+    background_image: String
     email: String
     instagram: String
     twitter: String
@@ -284,28 +310,22 @@ const typeDefs = gql`
     NFTs: [NFT]
   }
   type User {
-    id: String!
-    profile_picture: String
+    user_id: String!
+    image: String
     name: String
     wallet_address: String
     NFTs: [NFT]
   }
   type Query {
     allWebtoons: [Webtoon!]!
-    webtoon(id: String!): Webtoon
+    webtoon(webtoon_id: String!): Webtoon
     webtoonTop: Webtoon!
     allNFTs: [NFT]
-    NFT(id: String!): NFT
+    NFT(nft_id: String!): NFT
     allArtists: [Artist]
     artist(name: String!): Artist
     allUsers: [User]
-    user(id: String!): User
-  }
-  type Mutation {
-    postProfilePicture(picture: String!, userId: String!): String
-    postBackgroundPicture(picture: String!, userId: String!): String
-    deleteProfilePicture(picture: String!): Boolean
-    deleteBackgroundPicture(picture: String!): Boolean
+    user(user_id: String!): User
   }
 `;
 
@@ -314,8 +334,8 @@ const resolvers = {
     allWebtoons() {
       return webtoons;
     },
-    webtoon(root, { id }) {
-      return webtoons.find((webtoon) => webtoon.id === id);
+    webtoon(root, { webtoon_id }) {
+      return webtoons.find((webtoon) => webtoon.webtoon_id === webtoon_id);
     },
     webtoonTop() {
       return top;
@@ -323,8 +343,8 @@ const resolvers = {
     allNFTs() {
       return NFTs;
     },
-    NFT(root, { id }) {
-      return NFTs.find((NFT) => NFT.id === id);
+    NFT(root, { nft_id }) {
+      return NFTs.find((NFT) => NFT.nft_id === nft_id);
     },
     allArtists() {
       return artists;
@@ -335,55 +355,65 @@ const resolvers = {
     allUsers() {
       return users;
     },
-    user(root, { id }) {
-      return users.find((user) => user.id === id);
+    user(root, { user_id }) {
+      return users.find((user) => user.user_id === user_id);
     },
   },
-  Mutation: {
-    postProfilePicture(root, { picture, userId }) {},
-  },
   NFT: {
-    timeRemaining({ sold, drop_timestamp }) {
-      if (sold) {
+    timeRemaining({ sold_timestamp, drop_timestamp }) {
+      if (
+        sold_timestamp !== null &&
+        sold_timestamp !== undefined &&
+        sold_timestamp !== ""
+      ) {
         return null;
       } else return new Date(drop_timestamp).getTime() - new Date().getTime();
     },
     user({ owned_by }) {
-      return users.find((user) => user.id === owned_by);
+      return users.find((user) => user.user_id === owned_by);
     },
     webtoon({ webtoon_id }) {
-      return webtoons.find((webtoon) => webtoon.id === webtoon_id);
+      return webtoons.find((webtoon) => webtoon.webtoon_id === webtoon_id);
     },
   },
   Webtoon: {
-    cover_image({ pages }) {
-      return pages[0];
+    pages({ webtoon_id }) {
+      return webtoon_pages.filter((page) => page.webtoon_id === webtoon_id);
     },
     artist({ artist_id }) {
-      return artists.find((artist) => artist.id === artist_id);
+      return artists.find((artist) => artist.artist_id === artist_id);
     },
-    NFTs({ id }) {
-      return NFTs.filter((NFT) => NFT.webtoon_id === id);
+    NFTs({ webtoon_id }) {
+      return NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id);
     },
-    timeRemaining({ id }) {
+    timeRemaining({ webtoon_id }) {
       if (
-        NFTs.filter((NFT) => NFT.webtoon_id === id).filter(
-          (NFT) => NFT.sold === false
+        NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
+          (NFT) =>
+            (NFT.sold_timestamp === null) |
+            (NFT.sold_timestamp === undefined) |
+            (NFT.sold_timestamp === "")
         ).length > 0
       ) {
         return (
           new Date(
             NFTs.filter((NFT) => NFT.webtoon_id === id).filter(
-              (NFT) => NFT.sold === false
+              (NFT) =>
+                (NFT.sold_timestamp === null) |
+                (NFT.sold_timestamp === undefined) |
+                (NFT.sold_timestamp === "")
             )[0].drop_timestamp
           ).getTime() - new Date().getTime()
         );
       } else return null;
     },
-    sold({ id }) {
+    sold({ webtoon_id }) {
       if (
-        NFTs.filter((NFT) => NFT.webtoon_id === id).filter(
-          (NFT) => NFT.sold === false
+        NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
+          (NFT) =>
+            (NFT.sold_timestamp === null) |
+            (NFT.sold_timestamp === undefined) |
+            (NFT.sold_timestamp === "")
         ).length > 0
       ) {
         return false;
@@ -391,16 +421,16 @@ const resolvers = {
     },
   },
   Artist: {
-    webtoons({ id }) {
-      return webtoons.filter((webtoon) => webtoon.artist_id === id);
+    webtoons({ artist_id }) {
+      return webtoons.filter((webtoon) => webtoon.artist_id === artist_id);
     },
     NFTs({ name }) {
       return NFTs.filter((NFT) => NFT.created_by === name);
     },
   },
   User: {
-    NFTs({ id }) {
-      return NFTs.filter((NFT) => NFT.owned_by === id);
+    NFTs({ user_id }) {
+      return NFTs.filter((NFT) => NFT.owned_by === user_id);
     },
   },
 };
