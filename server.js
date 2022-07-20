@@ -258,13 +258,19 @@ const users = [
 ];
 
 const typeDefs = gql`
+  type Page {
+    webtoon_page_id: String!
+    webtoon_id: String!
+    page_image: String!
+    page_number: Int
+  }
   type Webtoon {
     webtoon_id: String!
     artist_id: String!
     artist: Artist
     title: String!
     volume: Int!
-    pages: [String!]!
+    pages: [Page]
     cover_image: String
     description: String
     NFTs: [NFT]
