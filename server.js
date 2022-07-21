@@ -148,7 +148,7 @@ const NFTs = [
   },
   {
     nft_id: "4",
-    webtoon_id: "1",
+    webtoon_id: "4",
     name: "Journey 4",
     owned_by: "3",
     image: "/img_420_420.png",
