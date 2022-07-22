@@ -366,9 +366,7 @@ const resolvers = {
   NFT: {
     timeRemaining({ sold_timestamp, drop_timestamp }) {
       if (
-        sold_timestamp !== null &&
-        sold_timestamp !== undefined &&
-        sold_timestamp !== ""
+        sold_timestamp?.length > 0
       ) {
         return null;
       } else return new Date(drop_timestamp).getTime() - new Date().getTime();
