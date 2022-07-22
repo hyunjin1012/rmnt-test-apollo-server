@@ -57,7 +57,7 @@ const webtoons = [
   {
     webtoon_id: "4",
     artist_id: "1",
-    title: "Fourth",
+    title: "Daddy's Twenty-Forty-Two",
     volume: 1,
     cover_image: "/img_420_420.png",
     description:
