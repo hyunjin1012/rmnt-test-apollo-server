@@ -157,7 +157,7 @@ const NFTs = [
       "Description Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT Description of NFT.",
     price: 0.0263,
     edition: 1,
-    drop_timestamp: "2021-09-01T16:00:00Z",
+    drop_timestamp: "2022-09-01T16:00:00Z",
     sold_timestamp: null,
     opensea: "https://opensea.io/",
     metadata: "#",
