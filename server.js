@@ -149,7 +149,7 @@ const NFTs = [
   {
     nft_id: "4",
     webtoon_id: "4",
-    name: "Journey 4",
+    name: "Daddy's Twenty-Forty-Two",
     owned_by: "3",
     image: "/img_420_420.png",
     created_by: "ddkang",
