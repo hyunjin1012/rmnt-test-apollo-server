@@ -275,7 +275,6 @@ const typeDefs = gql`
     description: String
     NFTs: [NFT]
     timeRemaining: Float
-    sold: Boolean
   }
   type NFT {
     nft_id: String!
