@@ -390,24 +390,6 @@ const resolvers = {
     NFTs({ webtoon_id }) {
       return NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id);
     },
-    // timeRemaining({ webtoon_id }) {
-    //   if (
-    //     NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
-    //       (NFT) =>
-    //         new Date(NFT.drop_timestamp).getTime() - new Date().getTime() > 0
-    //     ).length > 0
-    //   ) {
-    //     return (
-    //       new Date(
-    //         NFTs.filter((NFT) => NFT.webtoon_id === webtoon_id).filter(
-    //           (NFT) =>
-    //             new Date(NFT.drop_timestamp).getTime() - new Date().getTime() >
-    //             0
-    //         )[0].drop_timestamp
-    //       ).getTime() - new Date().getTime()
-    //     );
-    //   } else return null;
-    // },
   },
   Artist: {
     webtoons({ artist_id }) {
